@@ -2,7 +2,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 engine = create_engine(
-    "postgresql+psycopg2://postgres:alsaja2005@localhost/jobs_db"
+    "postgresql+psycopg2://postgres:YOUR_REAL_PASSWORD@localhost/jobs_db"
 )
 
 FILE_PATH = "/home/althaaf/job_listing_etl_project/data/processed/jobs.csv"
